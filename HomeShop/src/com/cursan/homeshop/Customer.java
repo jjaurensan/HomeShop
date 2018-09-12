@@ -1,9 +1,14 @@
 package com.cursan.homeshop;
 
-public class Client {
-
+public class Customer {
 	private String fullname;
 	private String address;
+	
+	public Customer(String fullname,String address) {
+		this.fullname=fullname;
+		this.address=address;
+		
+	}
 	
 	public String getFullname() {
 		return fullname;
@@ -11,6 +16,4 @@ public class Client {
 	public String getAddress() {
 		return address;
 	}
-	
-
 }
