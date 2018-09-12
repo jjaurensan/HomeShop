@@ -6,7 +6,8 @@ import java.util.Map;
 public class Bill {
 	 private Customer customer;
 	 private Map<Product, Integer> products = new HashMap<Product, Integer>();
-	 public Bill(Customer customer2) {
+	
+	 public Bill(Customer customer, Delivery delivery ) {
 		// TODO Auto-generated constructor stub
 	}
 
