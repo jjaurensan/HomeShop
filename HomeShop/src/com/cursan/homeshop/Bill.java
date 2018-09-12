@@ -1,11 +1,17 @@
 package com.cursan.homeshop;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class Bill {
 	 private Customer customer;
-	 private Map<Product, Integer> products;
-	 /**
+	 private Map<Product, Integer> products = new HashMap<Product, Integer>();
+	 public Bill(Customer customer2) {
+		// TODO Auto-generated constructor stub
+	}
+
+
+	/**
 	  * Ad a product with a quantity in the bill
 	  * @param product product to add
 	  * @param quantity quantity of the product
